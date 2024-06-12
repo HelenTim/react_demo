@@ -10,7 +10,7 @@ end_of_line = lf
 # 文件末尾会插入一个空行
 insert_final_newline = true
 # 使用制表符缩进
-# indent_style = tab
+# indent_style = tab  // 不使用tab作为缩进单位，防止在不同浏览器上不一致
 # 使用空格缩进
 indent_style = space
 # 缩进大小为 4
